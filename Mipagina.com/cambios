@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="caja caja1"><h1> Aprender idioma te abre muchas puertas</h1><p class="coral">Viví<span class="destacado"> una experiencia de aprendizaje </span> 100 % Online. <span class="destacado"> Profesores increíbles enseñando tu
+        lenguaje favorito. <br> <br>¡Comenzá hoy!</span></p><button class="inscrip">Empezar</button></div>
+    <div class="caja caja3"><img class="nerd" src="Imagenes/image 12.png" alt="chico" width=300 height=400> </div>
+</div>
+
+
+este es del viejo
+<div class="grid">
+    <h1>
+        "Aprender idioma te abre muchas puertas"
+    </h1>
+    <img class="nerd" src="Imagen/image 12.png" alt="chico" width=300 height=400>
+    <p class="coral">Viví<span class="destacado"> una experiencia de aprendizaje </span> 100 % Online. <span
+            class="destacado"> Profesores increíbles enseñando tu
+            lenguaje favorito. <br> <br>¡Comenzá hoy!</span></p>
+</div>
+
+<button class="inscrip">Empezar</button>
