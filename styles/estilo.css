@@ -53,7 +53,7 @@ h2 {
 }
 
 #descripcion {
-    text-align: left;
+    text-align: center
 }
 
 .destacado {
@@ -66,9 +66,12 @@ h3 {
     color: rgb(5, 5, 59);
     font-family: 'Poppins', sans-serif;
     margin-top: 80px;
-    margin-left: 80px;
-    margin-bottom: 50px;
-
+}
+.subtitulo{
+    display: grid;
+    width: 100%;
+    margin-left: 110px;
+    grid-template-columns: repeat(2, 1fr) ;
 }
 
 .text {
@@ -237,20 +240,6 @@ section div a {
     }
 }
 
-.estudiante1 {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
-}
-
-.estudiante2 {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-.estudiante3 {
-   width: 722px;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
 
 footer {
     text-align: center;
@@ -267,7 +256,6 @@ footer {
 .container{
     display: grid;
     width: 100%;
-    height: 350px;
     grid-template-columns: repeat(2, 1fr) ;
 
 }
@@ -423,3 +411,6 @@ h4 {
         flex-basis: 25%;
     }
 }
+html, body{
+    overflow-x:hidden;
+    }
