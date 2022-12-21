@@ -20,15 +20,21 @@ COMPU  --> @media (min-with:1025) {
 
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
+}
+*::selection{
+    background-color: black;
+    color: #e96acd;
 }
 
 h1 {
     color: rgb(5, 5, 59);
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
    
     margin-top: 30px;
+}
+h1.conoce {
+    margin-left: 120px;
 }
 
 h2 {
@@ -66,6 +72,8 @@ h3 {
     color: rgb(5, 5, 59);
     font-family: 'Poppins', sans-serif;
     margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 .subtitulo{
     display: grid;
@@ -179,74 +187,6 @@ section div a {
     cursor: pointer;
 }
 
-.teacher {
-    cursor: pointer;
-    margin: 20px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin-left: 60px;
-    gap: 2em;
-
-}
-
-.profesores1 {
-    width: 310px;
-    -webkit-animation: roll-in-left .6s ease-out both;
-    animation: roll-in-left .6s ease-out both;
-    animation-delay: 0,1s;
-}
-
-.profesores2 {
-    width: 310px;
-    -webkit-animation: roll-in-left .6s ease-out both;
-    animation: roll-in-left .6s ease-out both;
-    animation-delay: 1s;
-}
-
-.profesores3 {
-    width: 310px;
-    -webkit-animation: roll-in-left .6s ease-out both;
-    animation: roll-in-left .6s ease-out both;
-    animation-delay: 2s;
-}
-
-
-@-webkit-keyframes roll-in-left {
-    0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
-        opacity: 0
-    }
-
-    100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
-        opacity: 1
-    }
-}
-
-@keyframes roll-in-left {
-    0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
-        opacity: 0
-    }
-
-    100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
-        opacity: 1
-    }
-}
-
-
-footer {
-    text-align: center;
-    margin-top: 30px;
-}
-
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -287,10 +227,9 @@ div .testimonio {
     display: flex;
     flex-flow: row wrap;
     background-color: rgb(255, 255, 255);
-    width: 80%;
     padding: 8px;
     margin-left: 200px;
-    
+
 
 }
 
@@ -392,25 +331,72 @@ h4 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
-@media (max-width:640px) {
-    .logo {
-        display: grid;
-    }
+.imagenPrincipal{
+    height: 70vh;
+    background-image: url(../Imagen/chicoseñ.png);
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ display: grid;
+ align-items:center;
+ justify-content: left;
+}
+.imagenPrincipal h1{
+    color: rgb(5, 5, 37);
+    margin-left: 100px;
+}
+.imagenPrincipal p{
+    margin: 0%;
+    margin-left: 100px;
+}
+.imagenPrincipal .inscrip{
+    margin: 0%;
+    margin-left: 100px;
 }
 
-@media (max-with:360) {
-    section div {
-        flex-basis: 50%;
+html, body{
+    overflow-x:hidden;
     }
 
-}
 
 @media (max-with:1025) {
     section div {
         flex-basis: 25%;
     }
-}
-html, body{
-    overflow-x:hidden;
+    .cursos {
+        display: grid;
+
     }
+}
+@media (max-with:360) {
+    section div {
+        flex-basis: 50%;
+    }
+    .cursos {
+        display: grid;
+    }
+    main{
+        flex-basis: 20%;
+    }
+
+}
+
+
+
+    /*  RESPONSIVE
+CELULAR --> @media (min-with:360) {
+                body{
+                    
+                }
+            }
+TABLET  --> @media (min-with:768) {
+                body{
+                    
+                }
+            }
+COMPU  --> @media (min-with:1025) {
+                body{
+                    
+                }
+            }
+*/
