@@ -22,8 +22,8 @@ COMPU  --> @media (min-with:1025) {
     font-family: 'Poppins', sans-serif;
 }
 *::selection{
-    background-color: black;
-    color: #e96acd;
+    background-color:rgb(5, 5, 59);
+    color: #f38bf3;
 }
 
 h1 {
