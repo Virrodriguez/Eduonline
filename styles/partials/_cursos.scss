@@ -1,0 +1,57 @@
+main{
+    div{
+
+    h2 {
+        color: $mainColor;
+        font-size: 30px;
+        text-align: center;
+        font-family: $fontPoppins;
+        margin-left: 80px;
+        margin-top: 30px;
+        
+    }
+      
+      .flex-container {
+        display: flex;
+        padding: 12px;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      
+        .cursos {
+          cursor: pointer;
+          margin: 20px;
+          display: grid;
+          grid-template-columns: 50% 50% ;
+          margin-left: 60px;
+          gap: 2em;
+      
+          .loscursos {
+            width: 310px;
+            transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38);
+      
+            &:hover {
+              transform: scale(1.2);
+              cursor: pointer;
+            }
+          }
+          
+        }
+
+      }
+      .parrafo {
+        color: $mainColor;
+        font-family: $fontPoppins;
+        font-size: 16px;
+        margin-left: 80px;
+        text-align: center;
+    }
+    
+            
+        }
+        
+    }
+
+    html, body{
+        overflow-x:hidden;
+        }
