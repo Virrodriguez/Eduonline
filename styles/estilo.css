@@ -1,13 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 * {
-
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: none;
 }
 *::selection{
     background-color:rgb(5, 5, 59);
     color: #f38bf3;
+}
+.nav-link {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1.conoce {
@@ -279,6 +283,7 @@ h4 {
 .carousel-control-next-icon {
     color: #333;
   }
+
   
 
   
