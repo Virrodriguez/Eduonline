@@ -1,38 +1,4 @@
-/*  RESPONSIVE
-CELULAR --> @media (min-with:360) {
-                body{
-                    
-                }
-            }
-TABLET  --> @media (min-with:768) {
-                body{
-                    
-                }
-            }
-COMPU  --> @media (min-with:1025) {
-                body{
-                    
-                }
-            }
-*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
-* {
 
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-*::selection{
-    background-color:rgb(5, 5, 59);
-    color: #f38bf3;
-}
-
-h1 {
-    color: rgb(5, 5, 59);
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-   
-    margin-top: 30px;
-}
 h1.conoce {
     margin-left: 120px;
 }
@@ -45,15 +11,6 @@ h2 {
     margin-left: 80px;
     margin-top: 30px;
 }
-
-.coral {
-    color: coral;
-    
-    margin-bottom: 30px;
-    margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-
 .coral2 {
     color: coral;
 }
@@ -61,13 +18,6 @@ h2 {
 #descripcion {
     text-align: center
 }
-
-.destacado {
-    color: rgb(5, 5, 59);
-    font-family: 'Poppins', sans-serif;
-
-}
-
 h3 {
     color: rgb(5, 5, 59);
     font-family: 'Poppins', sans-serif;
@@ -130,21 +80,7 @@ section div a {
 
 }
 
-.inscrip {
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 100 px;
-    margin-bottom: 20px;
-    width: 35%;
-    border-radius: 8px;
-    background-color: rgb(5, 5, 37);
-    color: azure;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer
-}
+
 
 .navegacion {
     display: flex;
@@ -193,16 +129,6 @@ section div a {
     grid-template-rows: 150px;
 }
 
-.container{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr) ;
-
-}
-
-.nerd {
-    margin-left: 100px;
-}
 
 div .testimonio {
     font-family: 'Poppins', sans-serif;
@@ -331,28 +257,20 @@ h4 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.imagenPrincipal{
-    height: 70vh;
-    background-image: url(../Imagen/chicoseñ.png);
-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
- display: grid;
- align-items:center;
- justify-content: left;
-}
-.imagenPrincipal h1{
-    color: rgb(5, 5, 37);
-    margin-left: 100px;
-}
-.imagenPrincipal p{
-    margin: 0%;
-    margin-left: 100px;
-}
-.imagenPrincipal .inscrip{
-    margin: 0%;
-    margin-left: 100px;
-}
+
+.carousel-item img {
+    width: 50%;
+    margin: auto;
+  }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #333;
+  }
+  
+
+  
 
 html, body{
     overflow-x:hidden;
