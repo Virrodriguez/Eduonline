@@ -284,8 +284,45 @@ h4 {
     color: #333;
   }
 
-  
+  /*  Aca empieza el index nuevo */
+  .fs-1{
+    color: rgb(12, 12, 59);
+    font-weight: bold;
+    text-align: left;
+}
+.lh-base{
+    color: rgb(12, 12, 59);
+    text-align: left;
+    font-weight: 500;
+}
+.destacado{
+    color: coral;
+    font-weight: bold;
+}
+.coral{
+    color: coral;
+}
 
+.btn-primary{
+    font-weight: 200;
+    color: white;
+    background-color: rgb(12, 12, 59);
+    border-color: rgb(16, 16, 83);
+   border-radius: 4px;
+  }
+.btn-primary:hover{
+    color: white;
+    background-color:coral;
+    border-color: coral;
+}
+.fs-2{
+    color: rgb(12, 12, 59);
+    font-weight: 600;
+    text-align: left;
+}
+.card{
+    color: rgb(12, 12, 59);
+}
   
 
 html, body{
