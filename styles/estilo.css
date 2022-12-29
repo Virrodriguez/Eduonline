@@ -285,6 +285,7 @@ h4 {
   }
 
   /*  Aca empieza el index nuevo */
+  
   .fs-1{
     color: rgb(12, 12, 59);
     font-weight: bold;
@@ -304,7 +305,7 @@ h4 {
 }
 
 .btn-primary{
-    font-weight: 200;
+    font-weight: 400;
     color: white;
     background-color: rgb(12, 12, 59);
     border-color: rgb(16, 16, 83);
