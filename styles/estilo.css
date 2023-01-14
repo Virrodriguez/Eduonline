@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap') ;
+
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -18,7 +19,7 @@ h1.conoce {
     margin-left: 120px;
 }
 
-h2 {
+h1 {
     color: rgb(5, 5, 59);
     font-size: 30px;
     text-align: center;
