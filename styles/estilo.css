@@ -34,6 +34,9 @@ h2{
 .coral2 {
     color: coral;
 }
+p.coral2 {
+    margin: 20px; /* margin top and bottom: 20px, margin left and right: 20px */
+}
 
 #descripcion {
     text-align: center
@@ -124,16 +127,11 @@ section div a {
     gap: 2em;
 }
 
-.loscursos {
-    width: 310px;
-    /*transition: transform .5s, width .3s;  propiedad, duracion */
-    transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38)
-        /* all me indica que transicione TODAS las propiedades modificadas */
-}
 
-.loscursos:hover {
+
+.car:hover {
     /* Cuando pase el MOUSE por encima, aplique las siguientes propiedades */
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -335,8 +333,6 @@ html, body{
     color: red;
   }
   
-
-
 
 @media (max-with:1025) {
     section div {
