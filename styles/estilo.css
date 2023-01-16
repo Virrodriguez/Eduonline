@@ -332,7 +332,10 @@ html, body{
 .custom-arrow .carousel-control-prev-icon, .custom-arrow .carousel-control-next-icon {
     color: red;
   }
-  
+
+  img {
+    max-width: 100%;
+}
 
 @media (max-with:1025) {
     section div {
